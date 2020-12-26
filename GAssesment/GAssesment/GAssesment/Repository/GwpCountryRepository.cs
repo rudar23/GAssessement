@@ -25,7 +25,7 @@ namespace GAssesment.Repository
             //find the data for the specific country
             countrydata = countrydata.Where(x => x.country == input.country).ToList();
             //find the LOB w.r.t input data.
-            var result = countrydata.Where(x => input.lineofBusinesses.Any(y => y.lob.Equals(x.LOB))).ToList();
+            var result = countrydata.Where(x => input.lineofBusinesses.Any(y => y.lob.Equals(x.lineOfBusiness))).ToList();
             //send the above genererated list to the get the avergae
             var avgofLOB = _getaverageofLOB.Average(result);
 

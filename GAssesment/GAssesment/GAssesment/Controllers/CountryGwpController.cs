@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GAssesment.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("server/api/gwp")]
     [ApiController]
     public class CountryGwpController : ControllerBase
     {
@@ -23,6 +23,7 @@ namespace GAssesment.Controllers
 
         // POST api/<CountryGwp>
         [HttpPost]
+        [Route("avg")]
         public async Task<IActionResult> Post([FromBody] InputData input)
         {
             try

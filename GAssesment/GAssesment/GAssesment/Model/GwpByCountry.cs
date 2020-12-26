@@ -11,10 +11,17 @@ namespace GAssesment.Model
         [Key]
         public Guid Id { get; set; }
         public string country { get; set; }
-        public string variableID { get; set; }
-
-        public string VariablName { get; set; }
-        public string LOB { get; set; }
+        public string variableId { get; set; }
+        public string variableName { get; set; }
+        public string lineOfBusiness { get; set; }
+        public double Y2000 { get; set; }
+        public double Y2001 { get; set; }
+        public double Y2002 { get; set; }
+        public double Y2003 { get; set; }
+        public double Y2004 { get; set; }
+        public double Y2005 { get; set; }
+        public double Y2006 { get; set; }
+        public double Y2007 { get; set; }
         public double Y2008 { get; set; }
         public double Y2009 { get; set; }
         public double Y2010 { get; set; }

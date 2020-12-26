@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sharmar48\\source\\repos\\GAssesment\\UnitTestGAssesment\\UnitTestGAssesment.csproj": {}
+    "D:\\Rohit\\New folder (2)\\GAssessement\\GAssesment\\GAssesment\\UnitTestGAssesment\\UnitTestGAssesment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sharmar48\\source\\repos\\GAssesment\\GAssesment\\GAssesment.csproj": {
+    "D:\\Rohit\\New folder (2)\\GAssessement\\GAssesment\\GAssesment\\GAssesment\\GAssesment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sharmar48\\source\\repos\\GAssesment\\GAssesment\\GAssesment.csproj",
+        "projectUniqueName": "D:\\Rohit\\New folder (2)\\GAssessement\\GAssesment\\GAssesment\\GAssesment\\GAssesment.csproj",
         "projectName": "GAssesment",
-        "projectPath": "C:\\Users\\sharmar48\\source\\repos\\GAssesment\\GAssesment\\GAssesment.csproj",
-        "packagesPath": "C:\\Users\\sharmar48\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sharmar48\\source\\repos\\GAssesment\\GAssesment\\obj\\",
+        "projectPath": "D:\\Rohit\\New folder (2)\\GAssessement\\GAssesment\\GAssesment\\GAssesment\\GAssesment.csproj",
+        "packagesPath": "C:\\Users\\snowb\\.nuget\\packages\\",
+        "outputPath": "D:\\Rohit\\New folder (2)\\GAssessement\\GAssesment\\GAssesment\\GAssesment\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sharmar48\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\snowb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://proget-prod.pii.pxl.int:81/nuget/Default": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "LumenWorks.Framework.IO.Core": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.1, )"
@@ -52,6 +58,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.0, )"
             }
           },
           "imports": [
@@ -72,21 +82,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sharmar48\\source\\repos\\GAssesment\\UnitTestGAssesment\\UnitTestGAssesment.csproj": {
+    "D:\\Rohit\\New folder (2)\\GAssessement\\GAssesment\\GAssesment\\UnitTestGAssesment\\UnitTestGAssesment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sharmar48\\source\\repos\\GAssesment\\UnitTestGAssesment\\UnitTestGAssesment.csproj",
+        "projectUniqueName": "D:\\Rohit\\New folder (2)\\GAssessement\\GAssesment\\GAssesment\\UnitTestGAssesment\\UnitTestGAssesment.csproj",
         "projectName": "UnitTestGAssesment",
-        "projectPath": "C:\\Users\\sharmar48\\source\\repos\\GAssesment\\UnitTestGAssesment\\UnitTestGAssesment.csproj",
-        "packagesPath": "C:\\Users\\sharmar48\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sharmar48\\source\\repos\\GAssesment\\UnitTestGAssesment\\obj\\",
+        "projectPath": "D:\\Rohit\\New folder (2)\\GAssessement\\GAssesment\\GAssesment\\UnitTestGAssesment\\UnitTestGAssesment.csproj",
+        "packagesPath": "C:\\Users\\snowb\\.nuget\\packages\\",
+        "outputPath": "D:\\Rohit\\New folder (2)\\GAssessement\\GAssesment\\GAssesment\\UnitTestGAssesment\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sharmar48\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\snowb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,14 +107,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://proget-prod.pii.pxl.int:81/nuget/Default": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\sharmar48\\source\\repos\\GAssesment\\GAssesment\\GAssesment.csproj": {
-                "projectPath": "C:\\Users\\sharmar48\\source\\repos\\GAssesment\\GAssesment\\GAssesment.csproj"
+              "D:\\Rohit\\New folder (2)\\GAssessement\\GAssesment\\GAssesment\\GAssesment\\GAssesment.csproj": {
+                "projectPath": "D:\\Rohit\\New folder (2)\\GAssessement\\GAssesment\\GAssesment\\GAssesment\\GAssesment.csproj"
               }
             }
           }
@@ -146,7 +158,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,18 +18,20 @@ namespace GAssesment.Helper
             foreach (DataRow row in table.Rows)
             {
                 Double sum = 0;
-                int count = 0;
-                double d;
-                foreach (var item in row.ItemArray)
-                {
-                    if (Double.TryParse((string)item, out d))
-                    {
-                        sum = sum + Convert.ToDouble(item);
-                        count++;
-                    }
+                int count = 0;               
+                int i;
+               
+                foreach (DataColumn column in table.Columns)
+                {           
 
+                    if(int.TryParse( column.ColumnName.Substring(1) ,out i) && Convert.ToInt32( column.ColumnName.Substring(1))>2007 )
+                    {
+                        sum = sum + Convert.ToDouble(row[column]);
+                             count++;
+                    }
                 }
-                avgofLOB.Add(row["LOB"].ToString(), sum / count);
+
+                avgofLOB.Add(row["lineOfBusiness"].ToString(), sum / count);
             }
 
             return avgofLOB;
